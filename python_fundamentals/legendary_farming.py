@@ -51,15 +51,15 @@ while br == '':
 
 
 split_idx = 3
-d1 = dict(list(dict_of_items.items())[:split_idx])
-d2 = dict(list(dict_of_items.items())[split_idx:])
+dict1 = dict(list(dict_of_items.items())[:split_idx])
+dict2 = dict(list(dict_of_items.items())[split_idx:])
 
-sorted_d1 = dict(sorted(d1.items(), key=lambda x: (-x[1], x[0])))
-sorted_d2 = dict(sorted(d2.items(), key=lambda x: (x[0], x[1])))
+sorted_dict1 = dict(sorted(dict1.items(), key=lambda x: (-x[1], x[0])))
+sorted_dict2 = dict(sorted(dict2.items(), key=lambda x: (x[0], x[1])))
 
 dictionary = {}
-dictionary.update(sorted_d1)
-dictionary.update(sorted_d2)
+dictionary.update(sorted_dict1)
+dictionary.update(sorted_dict2)
 
 for key, value in dictionary.items():
 
