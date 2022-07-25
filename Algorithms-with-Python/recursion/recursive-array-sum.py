@@ -7,4 +7,4 @@ def calc_sum(vals, index):
 
 nums = [int(x) for x in input().split()]  # Input: 1 2 3 4
 
-print(calc_sum(nums, 0))  # Output: 10 in the console
+print(calc_sum(nums, 0))  # Output: 10 on the console
