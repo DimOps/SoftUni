@@ -1,4 +1,4 @@
-from object_oriented_programming.inheritance.shop.product import Product
+from product import Product
 
 
 class Food(Product):
